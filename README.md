@@ -17,6 +17,7 @@ The project uses a customized directory structure where routable components and 
 - `_lib/`: Shared utility functions and libraries.
 - `_constants/`: Application-wide constants.
 - `_config/`: Configuration settings for the application.
+- `_utils/`: Shared utility functions that are not part of `_lib`.
 
 ### Full Directory Tree
 
@@ -43,6 +44,8 @@ src/
 │   │   └── appConstants.ts              # Application-wide constants
 │   ├── _config/
 │   │   └── appConfig.ts                 # Application configuration settings
+│   ├── _utils/
+│   │   └── generalUtils.ts              # General utility functions
 │   ├── api/
 │   │   ├── home/
 │   │   │   └── getHomeData.ts           # API for home data
